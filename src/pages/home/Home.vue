@@ -51,7 +51,7 @@ export default {
   },
   methods: {
     getHomeInfo() {
-      const url = debug ? '/api/index.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/home.json'
+      const url = debug ? '/api/home.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/home.json'
       axios.get(url)
         .then(this.getHomeInfoSucc)
     },

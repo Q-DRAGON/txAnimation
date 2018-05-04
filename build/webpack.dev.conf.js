@@ -47,13 +47,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       poll: config.dev.poll,
     },
     before(app) {
-      app.get('/api/city', (req, res) => {
+      app.get('/api/city.json', (req, res) => {
         res.json(cityData)
       }),
-      app.get('/api/home', (req, res) => {
+      app.get('/api/home.json', (req, res) => {
         res.json(homeData)
       }),
-      app.get('/api/detail', (req, res) => {
+      app.get('/api/detail.json', (req, res) => {
         res.json(detailData)
       })
     }
