@@ -69,7 +69,7 @@ export default {
       this.getDataInfo()
     },
     getDataInfo() {
-      axios.get('/api/index.json')
+      axios.get('/api/home.json')
         .then(this.getDataInfoSucc)
     },
     getDataInfoSucc(res) {
