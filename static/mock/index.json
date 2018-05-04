@@ -1,0 +1,77 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "static/images/0.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "static/images/1.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "static/images/2.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "static/images/3.jpg"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "static/images/推荐0.jpg",
+        "title": "脱团大作战",
+        "desc": "变成妹纸开后宫"
+      }, {
+        "id": "0002",
+        "imgUrl": "static/images/推荐1.jpg",
+        "title": "火戟特工",
+        "desc": "接单除妖, 特工参上"
+      }, {
+        "id": "0003",
+        "imgUrl": "static/images/推荐2.png",
+        "title": "白泽异闻录",
+        "desc": "白泽，行走的美男计"
+      }, {
+        "id": "0004",
+        "imgUrl": "static/images/推荐3.jpg",
+        "title": "天神纠错组",
+        "desc": "我的老板是天神~!"
+      }, {
+        "id": "0005",
+        "imgUrl": "static/images/推荐4.jpg",
+        "title": "整容医生",
+        "desc": "整形医生的明争暗斗"
+      }, {
+        "id": "0006",
+        "imgUrl": "static/images/推荐5.jpg",
+        "title": "阿多尼斯",
+        "desc": "重生女主征服世界"
+      }],
+    "dailyList": {
+      "id": "0001",
+      "imgUrl": "static/images/日推.jpg",
+      "title": "女神在上",
+      "artist": "作者：2m"
+    },
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "static/images/日更0.jpg",
+        "title": "她死了：G day",
+        "aritist": "作者：来真动漫",
+        "lastest": "更新到151话",
+        "score": 8.2
+      }, {
+        "id": "0002",
+        "imgUrl": "static/images/日更1.jpg",
+        "title": "我的黑道男友",
+        "aritist": "作者：极光动漫",
+        "lastest": "更新到310话",
+        "score": 6.4
+      }, {
+        "id": "0003",
+        "imgUrl": "static/images/日更2.jpg",
+        "title": "请和梦中的我谈恋爱",
+        "aritist": "作者：诺动漫工作室",
+        "lastest": "更新到26话",
+        "score": 4.9
+      }]
+  }
+}
