@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>txAnimation</title><script>var countHtmlWidth = function() {
+        let pageWidth = window.innerWidth / 10
+        document.write('<style id="HtmlWidth">html{font-size:' +  pageWidth + 'px;}</style>')
+      }
+
+      var watchResize = function() {
+        let pageWidth = window.innerWidth / 10
+        document.querySelector('#HtmlWidth').innerHTML = 'html{font-size:' +  pageWidth + 'px;}'
+      }
+
+      window.onresize = function(){
+        watchResize()
+      }
+
+      countHtmlWidth()</script><link href=/static/css/app.5934643bec3a3e2708f5102f278f6ee5.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.438d539b39adfc22c5cf.js></script><script type=text/javascript src=/static/js/app.59edc2885ee86dda6265.js></script></body></html>
