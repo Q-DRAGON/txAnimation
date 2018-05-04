@@ -22,6 +22,8 @@ import HomeDrop from 'common/drop/Drop'
 import { mapState } from 'vuex'
 import axios from 'axios'
 
+const debug = process.env.NODE_ENV !== 'production';
+
 export default {
   name: 'Home',
   components: {
@@ -49,7 +51,8 @@ export default {
   },
   methods: {
     getHomeInfo() {
-      axios.get('/api/index.json')
+      const url = debug ? '/api/index.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/home.json'
+      axios.get(url)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc(res) {

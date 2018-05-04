@@ -12,6 +12,8 @@ import CityList from './components/List'
 import CityAlphabet from './components/Alphabet'
 import axios from 'axios'
 
+const debug = process.env.NODE_ENV !== 'production';
+
 export default {
   name: 'City',
   components: {
@@ -30,7 +32,8 @@ export default {
   },
   methods: {
     getCityInfo() {
-      axios.get('/api/city.json')
+      const url = debug ? '/api/detail.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/detail.json'
+      axios.get(url)
         .then(this.getCityInfoSucc)
     },
     getCityInfoSucc(res) {

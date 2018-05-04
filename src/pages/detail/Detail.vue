@@ -22,6 +22,8 @@ import DetailToolBar from './components/ToolBar'
 import DetailDrop from 'common/drop/Drop'
 import axios from 'axios'
 
+const debug = process.env.NODE_ENV !== 'production';
+
 export default {
   name: 'Detail',
   components: {
@@ -43,12 +45,9 @@ export default {
   },
   methods: {
     getDetailInfo() {
-      // 把 Id 也发送给后端
-      axios.get('/api/detail.json', {
-        params: {
-          id: this.$route.params.id
-        }
-      }).then(this.handleGetDataSucc)
+      const url = debug ? '/api/detail.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/detail.json'
+      axios.get(url)
+        .then(this.handleGetDataSucc)
     },
     handleGetDataSucc(res) {
       res = res.data
