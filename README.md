@@ -7,3 +7,4 @@ vue-cil + vue2.5 + vuex + vuerouter 构建
 动态 rem, 灵活适应各大小移动端设备。
 ## 预览
 [DEMO](https://q-dragon.github.io/txAnimation/dist/index.html)
+请在开发者工具中切换到移动端设备查看。
