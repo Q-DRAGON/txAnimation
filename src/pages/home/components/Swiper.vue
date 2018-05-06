@@ -55,6 +55,7 @@
     width: 0.4rem
     z-index: 1
   .wrapper
+    touch-action: none
     position: relative
     z-index: 1
     margin-top: 1rem
