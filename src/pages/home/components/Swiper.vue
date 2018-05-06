@@ -45,7 +45,8 @@
     width: 0.13rem
     height: 0.13rem
     border-radius: 0.13rem
-    margin: 0 .05rem
+    margin: 0rem!important
+    margin-left: 0.1rem!important
     background: #F5F5EE
     opacity: 1
     transition: width 300ms ease, background 300ms ease
