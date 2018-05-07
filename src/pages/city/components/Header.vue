@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       keyword: '',
-      list:[],
+      list: [],
       timer: null,
       isoffsetLeft: false
     }
@@ -57,7 +57,6 @@ export default {
       }
     },
     blurSearch() {
-      console.log('blur', this.$refs.input)
       this.keyword = ""
       this.blurSearchIcon()
       this.$refs.input.blur()
@@ -81,7 +80,6 @@ export default {
       this.timer = setTimeout(() => {
         const result = []
         for(let i in this.cities) {
-          console.log('i', i)
           // 遍历每个字母域下的所有城市
           this.cities[i].forEach((value) => {
             // 输入内容和遍历出的 value 配对, 如果配对成功, indexOf 会大于 -1（-1 则是完全不匹配）

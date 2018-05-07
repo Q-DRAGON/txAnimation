@@ -22,7 +22,7 @@ import HomeDrop from 'common/drop/Drop'
 import { mapState } from 'vuex'
 import axios from 'axios'
 
-const debug = process.env.NODE_ENV !== 'production';
+const debug = process.env.NODE_ENV !== 'production'
 
 export default {
   name: 'Home',
@@ -87,15 +87,7 @@ export default {
     }
   },
   mounted() {
-    this.lastCity = this.city
     this.getHomeInfo()
-  },
-  // 由于有了 keep-alive, 重新加载页面时，我们需要检查城市是否变化，如果变化就重新发送请求
-  activated() {
-    if(this.lastCity !== this.city) {
-      this.lastCity = this.city
-      this.getHomeInfo()
-    }
   }
 }
 </script>

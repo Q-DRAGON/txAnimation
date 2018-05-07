@@ -7,9 +7,7 @@
 
 <script>
 import CityHeader from './components/Header'
-import CitySearch from './components/Search'
 import CityList from './components/List'
-import CityAlphabet from './components/Alphabet'
 import axios from 'axios'
 
 const debug = process.env.NODE_ENV !== 'production';
@@ -18,9 +16,7 @@ export default {
   name: 'City',
   components: {
     CityHeader,
-    CitySearch,
-    CityList,
-    CityAlphabet
+    CityList
   },
   data() {
     return {
@@ -32,7 +28,7 @@ export default {
   },
   methods: {
     getCityInfo() {
-      const url = debug ? '/api/detail.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/detail.json'
+      const url = debug ? '/api/city.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/detail.json'
       axios.get(url)
         .then(this.getCityInfoSucc)
     },

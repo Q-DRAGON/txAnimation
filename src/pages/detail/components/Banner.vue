@@ -38,6 +38,8 @@ import CommonGallary from 'common/gallary/Gallary'
 import FadeAnimation from 'common/fade/FadeAnimation'
 import axios from 'axios'
 
+const debug = process.env.NODE_ENV !== 'production'
+
 export default {
   name: 'DetailBanner',
   props: {
@@ -69,7 +71,8 @@ export default {
       this.getDataInfo()
     },
     getDataInfo() {
-      axios.get('/api/home.json')
+      const url = debug ? '/api/home.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/home.json'
+      axios.get(url)
         .then(this.getDataInfoSucc)
     },
     getDataInfoSucc(res) {
