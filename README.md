@@ -1,4 +1,4 @@
-# vue 高仿腾讯动漫
+# vue 重构腾讯动漫
 vue-cil + vue2.5 + vuex + vuerouter 构建
 ## 界面
 ![腾讯动漫仿站 使用界面](https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/UI-screenshot/detail.PNG)
