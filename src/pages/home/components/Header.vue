@@ -5,7 +5,6 @@
         <router-link class="top-search top-tab" to="/city" tag="span"></router-link>
         <span class="top-menu top-tab" @click="handleMenuClick"></span>
       </div>
-    </router-link>
   </div>
 </template>
 
@@ -43,7 +42,7 @@ export default {
       width: 3rem
       height: 1.3rem
       background-repeat: no-repeat
-      background-image: url(/static/icons/sprite.png)
+      background-image: url(../../../../static/icons/sprite.png)
       background-size: 7.2rem 3.5rem
       background-position: 0rem -1.25rem
     .header-right
@@ -59,7 +58,7 @@ export default {
       .top-tab
         width: 0.6rem
         height: 0.6rem
-        background: url("/static/icons/sprite.png")
+        background: url("../../../../static/icons/sprite.png")
         background-repeat: no-repeat
         background-size: 8rem 3.8rem
       .top-menu

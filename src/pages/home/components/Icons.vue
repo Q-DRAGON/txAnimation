@@ -66,7 +66,7 @@ export default {
       justify-content: center
       height: 2.5rem
       width: 100%
-      background-image: url('/static/icons/波浪.png')
+      background-image: url('../../../../static/icons/波浪.png')
       background-size: 100% 2rem
       background-attachment: scroll
       background-repeat: no-repeat
@@ -83,7 +83,7 @@ export default {
         .icon-img
           width: 1rem
           height: 1rem
-          background: url(/static/icons/sprite.png)
+          background-image: url('../../../../static/icons/sprite.png')
           background-repeat: no-repeat
           background-size: 8.6rem 4rem
         .icon-img.classify

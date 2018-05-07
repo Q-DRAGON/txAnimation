@@ -32,7 +32,7 @@
         display: inline-block
         width: 0.75rem
         height: 0.75rem
-        background: url(/static/icons/spriteLay.png)
+        background: url(../../../../static/icons/spriteLay.png)
         background-size: 2.66rem 1.8rem
         background-repeat: no-repeat
         margin-left: 0.7rem

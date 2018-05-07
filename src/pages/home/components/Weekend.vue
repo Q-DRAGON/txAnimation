@@ -51,7 +51,7 @@
     width: 4rem
     height: 1.4rem
     display: inline-block
-    background: url("/static/icons/spriteTittle.png")
+    background: url("../../../../static/icons/spriteTittle.png")
     background-position: -2.5rem -3.5rem
     background-repeat: no-repeat
     background-size: 11rem 9.5rem
@@ -59,7 +59,7 @@
     float: right
     width: 1.6rem
     height: 0.7rem
-    background: url("/static/icons/spriteTittle.png")
+    background: url("../../../../static/icons/spriteTittle.png")
     background-position: -9.1rem -1.25rem
     background-repeat: no-repeat
     background-size: 11rem 9.5rem
@@ -72,7 +72,7 @@
       display: inline-block
       width: 2.7rem
       height: 9.5rem
-      background: url("/static/icons/spriteTittle.png")
+      background: url("../../../../static/icons/spriteTittle.png")
       background-position: 0rem 0.3rem
       background-repeat: no-repeat
       background-size: 11rem 9.5rem
@@ -118,7 +118,7 @@
             margin-top: 0.2rem
             width: 0.3rem
             height: 0.3rem
-            background: url(/static/icons/spriteTittle.png)
+            background: url(../../../../static/icons/spriteTittle.png)
             background-position: -10.66rem -2rem
             background-repeat: no-repeat
             background-size: 11rem 9.5rem

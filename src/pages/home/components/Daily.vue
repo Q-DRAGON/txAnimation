@@ -38,7 +38,7 @@
           width: 4rem
           height: 1.4rem
           display: inline-block
-          background: url("/static/icons/spriteTittle.png")
+          background: url("../../../../static/icons/spriteTittle.png")
           background-position: -7rem 0.3rem
           background-repeat: no-repeat
           background-size: 11rem 9.5rem
@@ -46,7 +46,7 @@
           float: right
           width: 1.6rem
           height: 0.7rem
-          background: url("/static/icons/spriteTittle.png")
+          background: url("../../../../static/icons/spriteTittle.png")
           background-position: -9.1rem -1.25rem
           background-repeat: no-repeat
           background-size: 11rem 9.5rem

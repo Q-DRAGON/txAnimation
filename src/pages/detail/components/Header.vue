@@ -66,7 +66,7 @@ export default {
       .top-tab
         width: 0.6rem
         height: 0.6rem
-        background: url("/static/icons/sprite.png")
+        background: url("../../../../static/icons/sprite.png")
         background-repeat: no-repeat
         background-size: 8rem 3.8rem
       .top-menu

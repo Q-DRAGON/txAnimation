@@ -111,7 +111,7 @@ import { mapState, mapMutations }  from 'vuex'
           .item-icon
             width: 1rem
             height: 1rem
-            background: url("/static/icons/sprite.png")
+            background: url("../../../static/icons/sprite.png")
             background-repeat: no-repeat
             background-size: 8.6rem 4rem
           .item-icon.icon-classify
@@ -136,7 +136,7 @@ import { mapState, mapMutations }  from 'vuex'
         width: 8rem;
         height: 1.65rem
         margin: 0 auto
-        background: url(/static/icons/sprite.png)
+        background: url(../../../static/icons/sprite.png)
         background-repeat: no-repeat
         background-position: 0rem 0rem
         background-size: 8rem 3.7rem

@@ -142,7 +142,7 @@ export default {
       pointer-events:none
       .search-icon
         display: inline-block
-        background: url(/static/icons/spriteSearch.png)
+        background: url(../../../../static/icons/spriteSearch.png)
         background-position: -2.1rem -1rem
         background-size: 2.9rem 2.4rem
         background-repeat: no-repeat
@@ -155,7 +155,7 @@ export default {
       display: inline-block
       width: 0.5rem
       height: 0.5rem
-      background: url(/static/icons/spriteSearch.png)
+      background: url(../../../../static/icons/spriteSearch.png)
       background-position: -0rem -1.92rem
       background-size: 2.9rem 2.4rem
       background-repeat: no-repeat

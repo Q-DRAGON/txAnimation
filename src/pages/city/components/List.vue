@@ -89,7 +89,7 @@ export default {
     border-bottom: 1px solid #C5C5C5
     .npc-avatar
       display: inline-block
-      background: url(/static/icons/spriteSearch.png)
+      background: url(../../../../static/icons/spriteSearch.png)
       background-position: 0rem -1rem
       background-size: 2.9rem 2.4rem
       background-repeat: no-repeat
@@ -97,7 +97,7 @@ export default {
       height: 0.8rem
     .npc-dialog
       display: inline-block
-      background: url(/static/icons/spriteSearch.png)
+      background: url(../../../../static/icons/spriteSearch.png)
       background-position: 0rem 0.1rem
       background-size: 2.8rem 2.4rem
       background-repeat: no-repeat
