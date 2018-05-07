@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     getCityInfo() {
-      const url = debug ? '/api/city.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/detail.json'
+      const url = debug ? '/api/city.json' : 'https://raw.githubusercontent.com/Q-DRAGON/txAnimation/master/dist/static/mock/city.json'
       axios.get(url)
         .then(this.getCityInfoSucc)
     },
